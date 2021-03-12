@@ -97,7 +97,7 @@ For advanced admins (own hosting required). Absolutely DO NOT DELETE any given v
 
 FaviconURL		= '';
 
-ChannelName		= 'asddddddd';
+ChannelName		= 'VTuberTV';
 
 MiniLogoURL		= '';
 
