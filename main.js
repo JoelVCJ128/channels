@@ -6926,7 +6926,7 @@ var _pl = (_pd == "none" || _pd == "15px") ? 61 : _pd.replace('px', '');
 
 css += '.navbar-brand {background-image:none !important; font-size:0pt !important; padding-left:15px !important}\n'
     +  '.navbar-brand.logo {\n'
-    +  '  background-image:' + synchlogo + ' !important; background-repeat:no-repeat !important;\n'
+    +  '  background-image:' + synchlogo + ' ; background-repeat:no-repeat !important;\n'
     +  '  background-position:15px center !important; background-size:auto 36px !important;\n'
     +  '  padding-left:' + _pl + 'px !important;\n'
     +  '}\n';
