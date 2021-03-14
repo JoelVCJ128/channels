@@ -7260,7 +7260,8 @@ function createButtom(id, aclass) {
     var a = document.createElement("a");
     a.setAttribute("class","");
     a.setAttribute("id",id);
-    a.append(aclass);
+	a.append(aclass);
+	a.append('<span class="glyphicon glyphicon-cog nav-cog layout-cog" />');
     a.style.cursor = "pointer";
     sp.append(a);
     document.querySelector('.navbar-nav').append(sp);
