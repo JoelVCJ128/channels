@@ -7264,7 +7264,8 @@ function createButtom(id, aclass) {
 function togTheme() {
     if(window.localStorage.getItem('US_DARKTHEME') == 'true'){
         var styles = document.getElementById('darkTheme');
-        styles.parentNode.removeChild(styles);
+		styles.parentNode.removeChild(styles);
+		change_favicon('https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@d71c7ec/logo.png');
         window.localStorage.setItem('US_DARKTHEME','false');
     } else{
 		setTheme();
