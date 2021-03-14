@@ -7255,16 +7255,18 @@ function addStyle(css, id) {
 	}
 }
 function createButtom(id, aclass) {
-    var sp = document.createElement("li");
+    var li = document.createElement("li");
    // sp.setAttribute("class",'shortcut brackets-wrap');
     var a = document.createElement("a");
     a.setAttribute("class","");
     a.setAttribute("id",id);
 	a.append(aclass);
-	a.append('<span class="glyphicon glyphicon-cog nav-cog layout-cog" />');
-    a.style.cursor = "pointer";
-    sp.append(a);
-    document.querySelector('.navbar-nav').append(sp);
+	a.style.cursor = "pointer";
+    var sp = document.createElement("span");
+    sp.setAttribute("class",'glyphicon glyphicon-cog nav-cog layout-cog');
+	a.append(sp);	
+    li.append(a);
+    document.querySelector('.navbar-nav').append(li);
 }
 function togTheme() {
     if(window.localStorage.getItem('US_DARKTHEME') == 'true'){
