@@ -7261,7 +7261,7 @@ function createButtom(id, aclass) {
     a.setAttribute("class","");
     a.setAttribute("id",id);
     var sp = document.createElement("span");
-    sp.setAttribute("class",'glyphicon glyphicon-cog');
+    sp.setAttribute("class",'glyphicon glyphicon-contrast');
 	a.append(sp);	
 	a.append(aclass);
 	a.style.cursor = "pointer";
