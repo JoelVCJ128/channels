@@ -99,7 +99,7 @@ FaviconURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@56bc421/logo.png';
 
 ChannelName		= ' ';
 
-MiniLogoURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@latest/logo.svg';
+MiniLogoURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@latest/logo2.svg';
 
 CustomWelcomeText	= '';
 
