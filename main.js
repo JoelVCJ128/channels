@@ -7290,7 +7290,7 @@ function setTheme() {
 /* |||CUSTOM TOMORROW||| */
 /* BODY BACKGROUND: #000000 */
 /*--------------------------*/
-var body = ':root {--bg1:  #424242; --bg2:  #303030;  --bg3: #212121;  --bt1:  #616161;   --bt2:  #fff; --bd1:  rgba(255, 255, 255, 0.1); --tx1: #fff;--tx2: #aaa; --ac1: #3ea6ff; --ac2: #f00;} .navbar-header .navbar-brand {background-image:url(https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@d71c7ec/logo2.svg) !important;';
+var body = ':root {--bg1:  #424242; --bg2:  #303030;  --bg3: #212121;  --bt1:  #616161;   --bt2:  #fff; --bd1:  rgba(255, 255, 255, 0.1); --tx1: #fff;--tx2: #aaa; --ac1: #3ea6ff; --ac2: #f00;} .navbar-header .navbar-brand {background-image:url(https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@6bd3e23/logo2.svg) !important;';
     addStyle(body, 'darkTheme');
 	change_favicon('https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@1cd8259/logo2.png');
 }
