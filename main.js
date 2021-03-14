@@ -7229,7 +7229,72 @@ if (EMOTESCACHE) {
 		}
 	}
 }
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+/* ---------- MOD ---------- */
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+createButtom('themeTog','Theme');
+//EVENTS
+document.querySelector('#themeTog').addEventListener('click', function() {togTheme()}, false);
+
+if (window.localStorage.getItem('US_DARKTHEME') == 'true') {setTheme()}
+function addStyle(css, id) {
+	var head = document.head;
+	if (head) {
+		var style = document.createElement("style");
+		style.type = "text/css";
+        style.id = id;
+		style.appendChild(document.createTextNode(css));
+		head.appendChild(style);
+	}
+}
+function createButtom(id, aclass) {
+    var sp = document.createElement("li");
+   // sp.setAttribute("class",'shortcut brackets-wrap');
+    var a = document.createElement("a");
+    a.setAttribute("class","");
+    a.setAttribute("id",id);
+    a.append(aclass);
+    a.style.cursor = "pointer";
+    sp.append(a);
+    document.querySelector('.navbar-nav').append(sp);
+}
+function togTheme() {
+    if(window.localStorage.getItem('US_THEME') == 'true'){
+        var styles = document.getElementById('darkTheme');
+        styles.parentNode.removeChild(styles);
+        window.localStorage.setItem('US_THEME','false');
+    } else{
+        var styles = document.getElementById('hardcss');
+		styles.parentNode.removeChild(styles);
+		setTheme();
+		window.localStorage.setItem('US_THEME','true');
+    }
+}
+function change_favicon(img) {
+    var favicon = document.querySelector('link[rel="shortcut icon"]');
+    
+    if (!favicon) {
+        favicon = document.createElement('link');
+        favicon.setAttribute('rel', 'shortcut icon');
+        var head = document.querySelector('head');
+        head.appendChild(favicon);
+    }
+    
+    favicon.setAttribute('type', 'image/png');
+    favicon.setAttribute('href', img);
+}
+function setTheme() {
+/*--------------------------*/
+/* |||CUSTOM TOMORROW||| */
+/* BODY BACKGROUND: #000000 */
+/*--------------------------*/
+var body = ':root {--bg1:  #424242; --bg2:  #303030;  --bg3: #212121;  --bt1:  #616161;   --bt2:  #fff; --bd1:  rgba(255, 255, 255, 0.1); --tx1: #fff;--tx2: #aaa; --ac1: #3ea6ff; --ac2: #f00;} .navbar-brand {background-image:url(https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@d71c7ec/logo2.svg) !important;';
+    addStyle(css+body, 'darkTheme');
+	change_favicon('https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@d71c7ec/logo2.png');
+}
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
