@@ -45,7 +45,7 @@
      inkscape:window-height="877"
      id="namedview37"
      showgrid="false"
-     inkscape:zoom="3.7115916"
+     inkscape:zoom="4.0873758"
      inkscape:cx="81.628135"
      inkscape:cy="45.963239"
      inkscape:window-x="-8"
@@ -57,6 +57,8 @@
      id="g1029"
      transform="matrix(1.2056607,0,0,1.0727139,-14.384165,-1.1359221)"
      style="fill:#212121;fill-opacity:1">
+    <title
+       id="title874">logo</title>
     <g
        viewBox="0 0 200 60"
        preserveAspectRatio="xMidYMid meet"
@@ -151,32 +153,37 @@
      d=""
      id="path136" />
   <g
-     id="g868">
-    <rect
-       style="fill:#00e26b;fill-opacity:1;stroke:#212121;stroke-width:1.03953;stroke-opacity:1"
-       id="rect1657"
-       width="63.212437"
-       height="36.755741"
-       x="1.791765"
-       y="11.961765" />
-    <rect
-       style="fill:#000000;fill-opacity:1;stroke:#212121;stroke-width:0.686206;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4257"
-       width="30.495014"
-       height="0.59279388"
-       x="18.248104"
-       y="50.283367" />
-    <text
-       xml:space="preserve"
-       style="font-size:96.0728px;line-height:1.25;font-family:'League Gothic';-inkscape-font-specification:'League Gothic';fill:#1c7c47;fill-opacity:1;stroke-width:1.50114;"
-       x="8.5008516"
-       y="71.281403"
-       id="text4261"
-       transform="scale(1.4799178,0.6757132)"><tspan
-         sodipodi:role="line"
-         id="tspan4259"
+     id="g870">
+    <title
+       id="title872">logo</title>
+    <g
+       id="g868">
+      <rect
+         style="fill:#00e26b;fill-opacity:1;stroke:#212121;stroke-width:1.03953;stroke-opacity:1"
+         id="rect1657"
+         width="63.212437"
+         height="36.755741"
+         x="1.791765"
+         y="11.961765" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#212121;stroke-width:0.686206;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect4257"
+         width="30.495014"
+         height="0.59279388"
+         x="18.248104"
+         y="50.283367" />
+      <text
+         xml:space="preserve"
+         style="font-size:96.0728px;line-height:1.25;font-family:'League Gothic';-inkscape-font-specification:'League Gothic';fill:#1c7c47;fill-opacity:1;stroke-width:1.50114;"
          x="8.5008516"
          y="71.281403"
-         style="fill:#1c7c47;fill-opacity:1;stroke-width:1.50114;">v</tspan></text>
+         id="text4261"
+         transform="scale(1.4799178,0.6757132)"><tspan
+           sodipodi:role="line"
+           id="tspan4259"
+           x="8.5008516"
+           y="71.281403"
+           style="fill:#1c7c47;fill-opacity:1;stroke-width:1.50114;">v</tspan></text>
+    </g>
   </g>
 </svg>
