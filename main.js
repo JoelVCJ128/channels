@@ -95,7 +95,7 @@ For advanced admins (own hosting required). Absolutely DO NOT DELETE any given v
 # ExternalScriptURL	| URL of an optional, additional external JavaScript file
 */
 
-FaviconURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@latest/logo.png';
+FaviconURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@e3b371d/logo.png';
 
 ChannelName		= ' ';
 
