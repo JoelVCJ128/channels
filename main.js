@@ -95,11 +95,15 @@ For advanced admins (own hosting required). Absolutely DO NOT DELETE any given v
 # ExternalScriptURL	| URL of an optional, additional external JavaScript file
 */
 
-FaviconURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@d71c7ec/logo.png';
+FaviconURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo.png';
+
+DarkFaviconURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo2.png'
 
 ChannelName		= ' ';
 
-MiniLogoURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@1cd8259/logo.svg';
+MiniLogoURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo.svg';
+
+DarkMiniLogoURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo2.svg';
 
 CustomWelcomeText	= '';
 
@@ -7265,7 +7269,7 @@ function togTheme() {
     if(window.localStorage.getItem('US_DARKTHEME') == 'true'){
         var styles = document.getElementById('darkTheme');
 		styles.parentNode.removeChild(styles);
-		change_favicon('https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@d71c7ec/logo.png');
+		change_favicon(FaviconURL);
         window.localStorage.setItem('US_DARKTHEME','false');
     } else{
 		setTheme();
@@ -7290,9 +7294,20 @@ function setTheme() {
 /* |||CUSTOM TOMORROW||| */
 /* BODY BACKGROUND: #000000 */
 /*--------------------------*/
-var body = ':root {--bg1:  #424242; --bg2:  #303030;  --bg3: #212121;  --bt1:  #616161;   --bt2:  #fff; --bd1:  rgba(255, 255, 255, 0.1); --tx1: #fff;--tx2: #aaa; --ac1: #3ea6ff; --ac2: #f00;} .navbar-header .navbar-brand {background-image:url(https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@6bd3e23/logo2.svg) !important;';
+var body = ':root {'
+	+ '	   --bg1:  #424242;' 
+	+ '	   --bg2:  #303030;' 
+	+ '	   --bg3: #212121;'
+	+ '	   --bt1:  #616161;' 
+	+ '	   --bt2:  #fff;'
+	+ '	   --bd1:  rgba(255, 255, 255, 0.1);' 
+	+ '	   --tx1: #fff;'
+	+ '	   --tx2: #aaa;'
+	+ '	   --ac1: #3ea6ff;' 
+	+ '	   --ac2: #f00;}'
+	+ '.navbar-header .navbar-brand {background-image:url(' + DarkMiniLogoURL + ') !important;';
     addStyle(body, 'darkTheme');
-	change_favicon('https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@1cd8259/logo2.png');
+	change_favicon(DarkFaviconURL);
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
