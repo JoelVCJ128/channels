@@ -45,14 +45,15 @@
      inkscape:window-height="877"
      id="namedview37"
      showgrid="false"
-     inkscape:zoom="4.0873758"
-     inkscape:cx="81.628135"
-     inkscape:cy="45.963239"
+     inkscape:zoom="4.5012067"
+     inkscape:cx="97.688565"
+     inkscape:cy="40.942191"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg35"
-     inkscape:document-rotation="0" />
+     inkscape:current-layer="g871"
+     inkscape:document-rotation="0"
+     inkscape:snap-text-baseline="true" />
   <g
      id="g1029"
      transform="matrix(1.2056607,0,0,1.0727139,-14.384165,-1.1359221)"
@@ -99,7 +100,7 @@
            id="path55" />
         <path
            d="m 170.83324,8.9834144 h 5.57052 l -5.9419,39.2020216 H 164.7322 L 158.79031,8.9834144 h 5.57051 l 2.86485,21.5477766 0.21221,1.653422 h 0.31832 l 0.21221,-1.653422 z"
-           style="font-weight:bold;font-size:53.3333px;fill:#1c7c47;fill-opacity:1;stroke:#00e26b;stroke-width:1.34887235;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="font-weight:bold;font-size:53.3333px;fill:#1c7c47;fill-opacity:1;stroke:#00e26b;stroke-width:1.34887;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            id="path57" />
       </g>
     </g>
@@ -158,32 +159,37 @@
        id="title872">logo</title>
     <g
        id="g868">
-      <rect
-         style="fill:#00e26b;fill-opacity:1;stroke:#212121;stroke-width:1.03953;stroke-opacity:1"
-         id="rect1657"
-         width="63.212437"
-         height="36.755741"
-         x="1.791765"
-         y="11.961765" />
-      <rect
-         style="fill:#000000;fill-opacity:1;stroke:#212121;stroke-width:0.686206;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="rect4257"
-         width="30.495014"
-         height="0.59279388"
-         x="18.248104"
-         y="50.283367" />
-      <text
-         xml:space="preserve"
-         style="font-size:96.0728px;line-height:1.25;font-family:'League Gothic';-inkscape-font-specification:'League Gothic';fill:#1c7c47;fill-opacity:1;stroke-width:1.50114;"
-         x="8.5008516"
-         y="71.281403"
-         id="text4261"
-         transform="scale(1.4799178,0.6757132)"><tspan
-           sodipodi:role="line"
-           id="tspan4259"
-           x="8.5008516"
-           y="71.281403"
-           style="fill:#1c7c47;fill-opacity:1;stroke-width:1.50114;">v</tspan></text>
+      <g
+         id="g878">
+        <rect
+           style="fill:#00e26b;fill-opacity:1;stroke:#212121;stroke-width:1.03953;stroke-opacity:1"
+           id="rect1657"
+           width="63.212437"
+           height="36.755741"
+           x="1.791765"
+           y="11.961765" />
+        <rect
+           style="fill:#000000;fill-opacity:1;stroke:#212121;stroke-width:0.686206;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect4257"
+           width="30.495014"
+           height="0.59279388"
+           x="18.248104"
+           y="50.283367" />
+        <g
+           id="g871">
+          <g
+             aria-label="v"
+             transform="scale(1.4799178,0.6757132)"
+             id="46"
+             style="font-size:96.0728px;line-height:1.25;font-family:'League Gothic';-inkscape-font-specification:'League Gothic';fill:#1c7c47;fill-opacity:1;stroke-width:1.50114"
+             inkscape:label="46">
+            <path
+               d="M 17.819913,71.281403 9.269434,18.729581 h 9.415134 l 3.170403,30.455078 0.384291,3.362548 h 0.768582 l 0.384292,-3.362548 3.170402,-30.455078 h 9.415134 l -8.550479,52.551822 z"
+               style="fill:#1c7c47;fill-opacity:1;stroke-width:1.50114"
+               id="path880" />
+          </g>
+        </g>
+      </g>
     </g>
   </g>
 </svg>

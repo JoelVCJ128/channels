@@ -26,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -45,7 +45,7 @@
      inkscape:window-height="877"
      id="namedview37"
      showgrid="false"
-     inkscape:zoom="2.4607316"
+     inkscape:zoom="2.4996225"
      inkscape:cx="86.921068"
      inkscape:cy="10.821468"
      inkscape:window-x="-8"
@@ -164,16 +164,14 @@
      height="0.59279513"
      x="18.248102"
      y="50.283367" />
-  <text
-     xml:space="preserve"
-     style="font-size:96.0728px;line-height:1.25;font-family:'League Gothic';-inkscape-font-specification:'League Gothic';fill:#00e26b;fill-opacity:1;stroke-width:1.50114;"
-     x="8.5008516"
-     y="71.281403"
+  <g
+     aria-label="v"
+     transform="scale(1.4799178,0.6757132)"
      id="text4261"
-     transform="scale(1.4799178,0.6757132)"><tspan
-       sodipodi:role="line"
-       id="tspan4259"
-       x="8.5008516"
-       y="71.281403"
-       style="fill:#00e26b;fill-opacity:1;stroke-width:1.50114;">v</tspan></text>
+     style="font-size:96.0728px;line-height:1.25;font-family:'League Gothic';-inkscape-font-specification:'League Gothic';fill:#00e26b;fill-opacity:1;stroke-width:1.50114">
+    <path
+       d="M 17.819913,71.281403 9.269434,18.729581 h 9.415134 l 3.170403,30.455078 0.384291,3.362548 h 0.768582 l 0.384292,-3.362548 3.170402,-30.455078 h 9.415134 l -8.550479,52.551822 z"
+       style="fill:#00e26b;fill-opacity:1;stroke-width:1.50114"
+       id="path41" />
+  </g>
 </svg>
