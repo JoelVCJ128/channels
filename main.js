@@ -7265,10 +7265,10 @@ function togTheme() {
     if(window.localStorage.getItem('US_THEME') == 'true'){
         var styles = document.getElementById('darkTheme');
         styles.parentNode.removeChild(styles);
-        window.localStorage.setItem('US_THEME','false');
+        window.localStorage.setItem('US_DARKTHEME','false');
     } else{
 		setTheme();
-		window.localStorage.setItem('US_THEME','true');
+		window.localStorage.setItem('US_DARKTHEME','true');
     }
 }
 function change_favicon(img) {
