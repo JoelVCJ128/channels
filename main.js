@@ -7262,7 +7262,7 @@ function createButtom(id, aclass) {
     document.querySelector('.navbar-nav').append(sp);
 }
 function togTheme() {
-    if(window.localStorage.getItem('US_THEME') == 'true'){
+    if(window.localStorage.getItem('US_DARKTHEME') == 'true'){
         var styles = document.getElementById('darkTheme');
         styles.parentNode.removeChild(styles);
         window.localStorage.setItem('US_DARKTHEME','false');
