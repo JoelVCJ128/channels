@@ -7295,16 +7295,16 @@ function setTheme() {
 /* BODY BACKGROUND: #000000 */
 /*--------------------------*/
 var body = ':root {'
-	+ '	   --bg1:  #424242;' 
-	+ '	   --bg2:  #303030;' 
-	+ '	   --bg3: #212121;'
-	+ '	   --bt1:  #616161;' 
-	+ '	   --bt2:  #fff;'
-	+ '	   --bd1:  rgba(255, 255, 255, 0.1);' 
-	+ '	   --tx1: #fff;'
-	+ '	   --tx2: #aaa;'
-	+ '	   --ac1: #3ea6ff;' 
-	+ '	   --ac2: #f00;}'
+	+ '	 --bg1: #424242;' 
+	+ '	 --bg2: #303030;' 
+	+ '	 --bg3: #212121;'
+	+ '	 --bt1: #616161;' 
+	+ '	 --bt2: #fff;'
+	+ '	 --bd1: rgba(255, 255, 255, 0.1);' 
+	+ '	 --tx1: #fff;'
+	+ '	 --tx2: #aaa;'
+	+ '	 --ac1: #3ea6ff;' 
+	+ '	 --ac2: #1c7c47;--dac2: #1de9b6;}'
 	+ '.navbar-header .navbar-brand {background-image:url(' + DarkMiniLogoURL + ') !important;';
     addStyle(body, 'darkTheme');
 	change_favicon(DarkFaviconURL);
