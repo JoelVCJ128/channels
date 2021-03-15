@@ -7239,9 +7239,9 @@ if (EMOTESCACHE) {
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-createButtom('themeTog','Theme');
+createButtom('theme','Theme');
 //EVENTS
-document.querySelector('#themeTog').addEventListener('click', function() {togTheme()}, false);
+document.querySelector('#theme').addEventListener('click', function() {togTheme()}, false);
 
 if (window.localStorage.getItem('US_DARKTHEME') == 'true') {setTheme()}
 function addStyle(css, id) {
@@ -7258,7 +7258,7 @@ function createButtom(id, aclass) {
     var li = document.createElement("li");
    // sp.setAttribute("class",'shortcut brackets-wrap');
     var a = document.createElement("a");
-    a.setAttribute("class","");
+    a.setAttribute("href","#");
     a.setAttribute("id",id);
     var sp = document.createElement("span");
     sp.setAttribute("class",'glyphicon glyphicon-contrast');
@@ -7308,7 +7308,7 @@ var body = ':root {'
 	+ '	 --tx2: #aaa;'
 	+ '	 --ac1: #3ea6ff;' 
 	+ '	 }'
-	+ '.navbar-header .navbar-brand {background-image:url(' + DarkMiniLogoURL + ') !important;';
+	+ '.navbar-header .navbar-brand.logo {background-image:url(' + DarkMiniLogoURL + ') !important;';
     addStyle(body, 'darkTheme');
 	change_favicon(DarkFaviconURL);
 }
