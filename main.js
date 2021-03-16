@@ -7307,7 +7307,7 @@ var body = ':root {'
 	+ '	 --tx1: #fff;'
 	+ '	 --tx2: #aaa;'
 	+ '	 --ac1: #3ea6ff;' 
-	+ '	 }'
+	+ '	 --ac3: #1c7c47;--dac3: #1de9b6;}'
 	+ '.navbar-header .navbar-brand.logo {background-image:url(' + DarkMiniLogoURL + ') !important;';
     addStyle(body, 'darkTheme');
 	change_favicon(DarkFaviconURL);
