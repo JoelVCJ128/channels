@@ -3720,7 +3720,7 @@ function loadScript(url, callback){
 var logscript = function() {console.log('script loaded')};
 
 loadScript("https://vr1lbr5toqnog3enjanteq-on.drv.tw/voicerss-tts.min.js", logscript);
-loadScript("https://vr1lbr5toqnog3enjanteq-on.drv.tw/x-frame-bypass.js", logscript);
+loadScript("https://cdn.jsdelivr.net/gh/niutech/x-frame-bypass@latest/x-frame-bypass.js", logscript);
 
 function spk(){
 var audio = document.createElement('audio');
