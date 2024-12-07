@@ -143,9 +143,9 @@ UI_ChannelCache = 1;		// caching script emotes, additional media database and de
 
 	/* -- single variables -- */
 
-Favicon_URL = 'https://cdn.discordapp.com/attachments/648082013953458194/648284352660373534/joystick_red-512.png';
+Favicon_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png';
 
-MiniLogo_URL = 'https://media.discordapp.net/attachments/648082013953458194/648284352660373534/joystick_red-512.png?width=10&height=10';
+MiniLogo_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png?width=10&height=10';
 
 ChannelName_Caption = 'The Arcade Room';
 
@@ -161,7 +161,7 @@ AttentionBar_URL = '';
 
 ChannelAnnouncement_Title = 'Administration Message';
 
-TitleIcon_URL = 'https://media.discordapp.net/attachments/648082013953458194/648284352660373534/joystick_red-512.png?width=10&height=10';
+TitleIcon_URL = 'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png?width=10&height=10';
 
 TitleBarDescription_Caption = 'Now Playing:';
 
