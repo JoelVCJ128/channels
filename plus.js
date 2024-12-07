@@ -197,7 +197,7 @@ HeaderDropMenu_Array = [
 ];
 
 MOTDAutoLogo_Array = [
-'https://cdn.discordapp.com/attachments/648082013953458194/648344765821353994/logarc.png'
+'https://dl.dropboxusercontent.com/s/xgefazzyhs8xncp/icon.png'
 ];
 
 MOTDTabs_Array = [
