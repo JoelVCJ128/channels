@@ -201,10 +201,14 @@ MOTDAutoLogo_Array = [
 ];
 
 MOTDTabs_Array = [
-['Home',	'Welcome to our channel!'],
-['Playlist',	'Playlist tab.<br /><br />We watched this, that and this.'],
-['Schedule',	'Schedule:<br /><br /><ul><li>Monday: ...</li><li>Tuesday: ...</li><li>Wendesday: ...</li><li>Thursday: ...</li><li>Friday: ...</li><li>Saturday: ...</li><li>Sunday: ...</li></ul>'],
-['Contact',	'Contact:<br /><br />Email - ...<br />Skype - ...'],
+	['Iframe',
+	'<center><button class="btn btn-default" id=openPopup1 onclick="openPopup(this)">Popup</button></br>'+
+	'<div style="display:inline">Iframe1:<input id="address_bar1" value=""></input><button class="btn btn-default" id=goBtn1 onclick="goTo(this)">Go</button><input type="checkbox" name="force1" id="force1" value="">Force [ <a href="https://boards.4channel.org/v/catalog" target="iframe1">/v/</a> • <a href="https://boards.4channel.org/vg/catalog" target="iframe1">/vg/</a> • <a href="https://boards.4channel.org/vr/catalog" target="iframe1">/vg/</a> • <a href="https://pastebin.com/embed_iframe/ZRTZV0XM" target="iframe1">/vg/</a> ]</div> '+
+	'<div style="display:inline"></input><button class="btn btn-default" id=btnRI onclick="resizeIframe(30,70)">3/7</button></input><button class="btn btn-default" id=btnRI onclick="resizeIframe(50,50)">5/5</button><button class="btn btn-default" id=btnRI onclick="resizeIframe(70,30)">7/3</button></div> '+
+	'<div style="display:inline">Iframe2:<input id="address_bar2" value=""></input><button class="btn btn-default" id=goBtn2 onclick="goTo(this)">Go</button><input type="checkbox" name="force2" id="force2" value="">Force [ <a href="https://boards.4channel.org/v/catalog" target="iframe2">/v/</a> • <a href="https://boards.4channel.org/vg/catalog" target="iframe2">/vg/</a> • <a href="https://boards.4channel.org/vr/catalog" target="iframe2">/vg/</a> • <a href="https://pastebin.com/embed_iframe/ZRTZV0XM" target="iframe2">/vg/</a> ]</div>'+
+	'<div class="wrap"><div class="pull-tab"></div><iframe onLoad="updateBar(this)" is="x-frame-bypass" src="https://cytu.be" width="50%" frameborder="0" name="iframe1" id=iframe1></iframe><iframe onLoad="updateBar(this)" is="x-frame-bypass" src="https://boards.4channel.org/v/catalog" width="50%" frameborder="0" name="iframe2" id=iframe2></iframe></div>'+
+	'</center>'],	
+	['Iframe',	'You can also putting an IFRAME with your portal, imageboard, IRC etc...<br /><br /><iframe src="https://www.retrogames.cc/embed/21929-super-mario-bros-europe-rev-0a.html" width="600" height="450" frameborder="no" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" scrolling="no"></iframe>'],	
 ];
 
 RandomQuotes_Array = [
