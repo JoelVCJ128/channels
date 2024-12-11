@@ -1,0 +1,449 @@
+:root { 
+    --bg1: #f5f5f5;--dbg1: #424242; 
+    --bg2: #eee;--dbg2: #303030;
+    --bg3: #fff;--dbg3: #212121;
+    --bt1: #e0e0e0;--dbt1: #616161;
+    --bt2: #0000008a;--dbt1: #fff;
+    --bd1: #0000001a;--dbd1: #ffffff1a;
+    --tx1: #030303;--dtx2: #fff;
+    --tx2: #606060;--dtx1: #f5f5f5;
+    --ac1: #065fd4;--dac1: #3ea6ff;
+    --ac2: #00e5ff;
+    --ac3: #1de9b6;--dac3: #1c7c47;
+    --ac4: #ffca28;
+    --ac5: #f57c00;
+    --ac6: #e91e63;
+    --ac7: #e62117;    
+}
+body {
+    color: red;
+    background-color: var(--bg1);
+    font-family: Roboto, Arial, sans-serif;
+}
+/* ----------  NAVBAR ---------- */
+.navbar-inverse {
+    background-image: none !important;
+    background-color: var(--bg3);
+}
+.navbar-inverse .navbar-nav>li>a,.navbar-inverse .navbar-text {
+    color: var(--tx2);
+}
+.navbar {
+    border: 0px solid var(--bd1);
+    text-shadow: 0px 0px 0px rgba(0,0,0,.3);
+    font-weight: bold;
+}
+/* ----------  NAVBAR BRAND ICON ---------- */
+.navbar-inverse .navbar-brand {
+    color: var(--tx1); content-visibility: hidden;
+    background-image: url( 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo.svg' );
+    background-repeat:no-repeat !important;
+    background-position: 15px center !important;
+    background-size: auto 36px !important;        
+    padding-left: 140px;
+}
+.navbar-inverse .navbar-brand:hover {
+    color: var(--ac3);
+}
+/* ----------  NAVBAR BRAND NAME ---------- */
+.navbar-nav>li>a {
+    border-right: none;
+    border-left: none;
+}
+.navbar-nav>li>a:hover {
+    background-color: var(--bg3);
+    background-image: none;
+}
+/* ----------  NAVBAR LINKS ---------- */
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:focus,.navbar-inverse .navbar-nav>li>a:hover {
+    color: var(--tx2);border: none;
+    background-color: var(--bg2);
+}
+.navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-nav>li>a:focus {
+    color: var(--ac3);border: none;
+    background-color: var(--dac3);
+}
+.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a:focus,.navbar-inverse .navbar-nav>.open>a:hover {
+    color: var(--dac3);
+    background-color: var(--ac3) !important;
+}
+.navbar-inverse .navbar-text-nofloat {
+    color: var(--tx2);
+}
+/* ----------  NAVBAR DROPDOWN MENU ---------- */
+.dropdown-menu {
+    background-color: var(--bg3);
+    border: 1px solid var(--bd1);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.175);
+    box-shadow: 0 0px 0px rgba(0,0,0,.175);
+}
+.dropdown-menu>li>a {
+    color: var(--tx2);
+}
+.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover {
+    color: var(--dac3);
+    background-color: var(--ac3);
+}
+.dropdown-menu .divider {
+    background-color: var(--bg2);
+}
+#useravatar {
+    border-radius: 0px;
+}
+/* ----------  MODALS ---------- */
+.modal-content {
+    background-color: var(--bg3);
+    border: 0px solid var(--bd1);
+    border-radius: 0px;
+    -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.5);
+    box-shadow: 0 0px 0px rgba(0,0,0,.5);
+}
+/* ----------  MODALS NAVS ---------- */
+.nav>li>a {
+    color: var(--tx2);
+}
+.nav>li>a:focus,.nav>li>a:hover {
+    background-color: var(--bg1);
+    color: var(--tx2);border: 1px solid var(--bd1);
+}
+.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover {
+    color: var(--dac3);
+    background-color: var(--ac3);
+    border: 1px solid var(--bd1);
+    border-bottom-color: transparent;
+    border-radius: 0px 0px 0 0;
+}
+.nav .open>a,.nav .open>a:focus,.nav .open>a:hover {
+    background-color: var(--bt1);
+}
+.nav-tabs {
+    border-bottom: 1px solid var(--bd1);
+}
+.dropdown-menu>.active>a,.dropdown-menu>.active>a:focus,.dropdown-menu>.active>a:hover {
+    color: var(--ac3);
+    background-color: var(--dac3);
+}
+/* ----------  TEXT ---------- */
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+    font-family: Roboto, Arial, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    text-shadow: none;
+}
+a, a:hover {
+    color: var(--tx1);
+}
+input.form-control[type="text"], input.form-control[type="password"], input.form-control[type="email"], textarea.form-control {
+    background-color:var(--bg3) !important;
+    color: var(--tx2)
+}
+/* ----------  TABLES ---------- */
+table {
+    background-color: var(--bg2)
+}
+.table-striped>tbody>tr:nth-child(odd) {
+    background-color: var(--bg1)
+}
+.text-info,.text-info:hover {
+    color: var(--ac1)
+}
+/* ----------  PANELS ---------- */
+.well {
+    background-color: var(--bg2);
+    border: 1px solid var(--bd1);
+    border-radius: 0px;
+    color: var(--tx1);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow:
+     inset 0 1px 1px rgba(0,0,0,.05);
+}
+/* ----------  POLL BUTTON ---------- */
+#pollwrap>div h3 {
+    font-size: 20px;
+}
+/* ----------  POLL BUTTON ---------- */
+.option>button, .option>.btn-default[disabled] {
+    background-color: transparent !important;
+    border: 1px solid var(--tx1);
+    border-radius: 0px;
+    color: var(--tx1);
+}
+.option>button:hover, .option-selected>button {
+    background-color: transparent !important;
+    border: 1px solid var(--ac1) !important;
+    border-radius: 0px;
+    color: var(--ac1) !important;
+}
+/* ---------- GENERAL BUTTON ---------- */
+.btn, .btn:hover,.btn:active, .btn-group-sm>.btn,.btn-sm,.btn-group-xs>.btn, .btn-xs {
+    border-radius: 0px; 
+    border-color: var(--bt1);
+    text-shadow: none;
+    font-weight: bold;
+}
+.btn-default.active,.btn-default.focus,.btn-default:active,.btn-default:focus,.btn-default:hover,.open>.dropdown-toggle.btn-default {
+    color: var(--bt1);
+    background-color: var(--bt2);
+    border-color: var(--bt2);    
+    background-image: none;
+}
+.btn-default {
+    color: var(--bt2);
+    border: 0;
+    background-color: var(--bt1);
+    background-image: none;
+}
+.btn-default:hover {
+    color: var(--bt2);
+    border-color: var(--bg2);
+    background-color: var(--bg2);
+    background-image: none;
+}
+/* ---------- ACTION BUTTON ---------- */
+.btn-primary {
+    color: var(--ac1);
+    font-weight: bold;
+    border: 1px solid var(--ac1);
+    background-color: transparent;
+    background-image: none;text-transform: uppercase;
+}
+.btn-primary:hover, .btn-primary:focus {
+    color: var(--ac1);
+    font-weight: bold;
+    border: 1px solid var(--ac1);
+    background-color: var(--bg1);
+    background-image: none;
+}
+.btn-group.open .dropdown-toggle {
+    box-shadow: inset 0 0px 0px rgb(0 0 0 / 13%);
+}
+/* ---------- FORM BUTTON ---------- */
+form>.btn-default, form>.btn-default:hover, form>.btn-default:focus {
+    border: 1px solid;
+    color: var(--ac1);
+    border-color: var(--ac1);
+    background-color: transparent;
+    background-image: none;text-transform: uppercase;
+}
+.btn-default.disabled,.btn-default.disabled.active,.btn-default.disabled.focus,.btn-default.disabled:active,.btn-default.disabled:focus,.btn-default.disabled:hover,.btn-default[disabled],.btn-default[disabled].active,.btn-default[disabled].focus,.btn-default[disabled]:active,.btn-default[disabled]:focus,.btn-default[disabled]:hover,fieldset[disabled] .btn-default,fieldset[disabled] .btn-default.active,fieldset[disabled] .btn-default.focus,fieldset[disabled] .btn-default:active,fieldset[disabled] .btn-default:focus,fieldset[disabled] .btn-default:hover {
+    background-color: var(--bt1);
+}
+/* ---------- DANDER BUTTON ---------- */
+.btn-danger {
+    color: var(--ac7);
+    border-color: var(--ac7);
+    background-color: transparent;
+    background-image: none;
+}
+.btn-danger:hover {
+    color: var(--bg3);
+    border-color: var(--ac7);
+    background-color: var(--ac7);
+    background-image: none;
+}
+/* ---------- FORM INPUT ---------- */
+.input-group-addon {
+    color: var(--ac1);
+    font-weight: bold;
+    border: 1px solid var(--ac1);
+    background-color: transparent;
+    text-shadow: 0px 0px 0px rgba(0,0,0,.3);
+    background-image: none;
+    cursor:pointer
+}
+.input-group-addon:first-child {
+      border: 1px solid var(--ac1);border-radius: 0px;
+}
+.form-control {
+    border-radius: 0px;
+    border: 1px solid var(--bd1);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+}
+.collapse.in, .collapse, .collapsing {
+    color: var(--tx2);
+}
+.modal-content {
+    color: var(--tx2);
+}
+#navbar-collapsed div {
+    width: 40px;
+    color: var(--tx2);
+    font-size: 12px;
+    margin: 0 auto;
+    border: solid 1px var(--bd1);
+    padding: 2px;
+    background-color: var(--bg2);
+    border-style: none solid solid;
+    border-radius: 0px;
+}
+/* ---------- PLAYLIST ---------- */
+.numbered {
+    border-color: var(--bd1);
+    background-color: var(--bg3);
+    background-image: none;
+}
+.queue_entry {
+    background-color: var(--bg3); color: var(--tx2);
+    background-image: none;
+    font-size: 12px;border-color: var(--bd1);
+}
+.queue_active {
+    background-color: var(--bg2);
+    background-image: none;
+}
+/* ---------- CHAT PANEL ---------- */
+.label-default {
+    background-color: var(--bt1);
+}
+.label {
+    color: var(--bt2);
+    border-radius: 0em
+}
+.nick-hover, .nick-highlight {
+    background-color: var(--bg3)
+}
+#chatheader, #videowrap-header {
+    border: 1px solid var(--bd1);
+    border-radius: 0px;
+    font-size: 11pt;
+    background-color: var(--bg3);
+    color: var(--tx1);
+}
+#chatheader {
+    color: var(--tx2);
+}
+#userlist, #messagebuffer {
+    border: 1px solid var(--bd1);
+    background-color: var(--bg2);
+    color: var(--tx2);
+}
+span>a, span>a:hover {
+    color: var(--ac1);
+}
+.poll-notify {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    margin: 5px 0px;
+    padding: 6px;
+    border: 1px solid var(--bd1);
+    border-radius: 4px;
+    background: var(--ac4);
+}
+.serverinfo {
+    font-size: 12px;
+    margin: 5px 0px;
+    padding: 2px;
+    border: 1px solid var(--bd1);
+    border-radius: 0px;
+    background: var(--ac3);
+}
+.serverinfo>.action {
+    color: var(--dac3);
+    font-style: normal;
+}
+.server-msg-disconnect {
+    border: 1px solid var(--ac7);
+    color: var(--ac7);
+}
+
+.server-msg-reconnect {
+    border: 1px solid var(--dac3);
+    line-height: 2;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: var(--dac3);
+    text-align: center;
+    background-color: #1c7c4740;
+}
+#plmeta {
+    border-radius: 0px;
+    border: 1px solid var(--bd1);
+    color: var(--tx1);
+}
+#motdwrap{
+    background-color: var(--bg3);
+    color: var(--tx1);
+ }
+ .pbar {
+   background-image:linear-gradient(to right,var(--bg1),var(--bg1)) !important; background-size:0% 100%;
+   background-position:0px center !important; background-repeat:no-repeat !important;
+ }
+/* ---------- ALERTS ---------- */
+.alert{
+    border-radius: 0px;
+}
+.alert-info {
+    background-color: var(--bg2);
+    border-color: var(--ac1);
+    color: var(--tx1);
+}
+.alert-warning {
+    background-color: var(--ac5);
+}
+.alert-warning>.btn {
+    background-color: var(--ac1);
+    border-color: var(--ac1);
+    color: var(--bg3);
+    text-transform: uppercase;
+}
+.alert-danger {
+    background-color: var(--ac7);border: none;
+}
+/* ---------- TOOLTIPS ---------- */
+.profile-box, .user-dropdown, .emotelist-table td {
+    color: var(--tx2);
+    background-color: var(--bg3);
+    border: 1px solid var(--bd1);
+    border-radius: 0px;
+}
+/* ---------- OPTION PANEL ---------- */
+.panel {
+    border-radius: 0px;
+}
+.panel-danger .panel-heading, .panel-info .panel-heading, .panel-primary .panel-heading, .panel-success .panel-heading, .panel-warning .panel-heading {
+    border-color: var(--bd1);
+}
+.panel-primary>.panel-heading {
+    color: var(--tx2);
+    background-color: var(--bg2);
+    border-color: var(--bd1);
+}
+.panel-heading {
+    border-radius: 0px;
+}
+.panel-body {
+    padding: 15px;
+    background-color: var(--bg1);
+}
+#radioslider a, #chatslider a {
+    background-color: var(--ac1);
+    border: none;
+}
+/* ---------- FOOTER ---------- */
+footer {
+    background-color: var(--bg3) !important;
+}
+/* ---------- SCROLLBAR ---------- */
+::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+    border-radius: 0px;
+}
+::-webkit-scrollbar-button {
+    display: none;
+}
+::-webkit-scrollbar-thumb {
+    background:  var(--bt1);
+}
+::-webkit-scrollbar-corner, ::-webkit-scrollbar-track {
+    background: var(--bg1);
+}
+/* ---------- ICONS ---------- */
+.glyphicon-contrast:before {
+    content: "\e063"; margin-right: 8px;
+}
+.glyphicon {
+    font-weight: bold;
+}
