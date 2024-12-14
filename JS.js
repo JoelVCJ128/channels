@@ -14,6 +14,7 @@ HeaderOptionMenu = 1;
 AvatarDropMenu  = 1;
 DefaultAvatar_URL	= 'https://cdn.jsdelivr.net/gh/JoelVCJ128/channels/avatar.jpg';
 
+// If already loaded then reload
 var LOADED = (typeof LOADED==="undefined") ? false : true;
 LOADED ? document.location.reload() : '';
 
@@ -26,6 +27,10 @@ TABMODE	= getOrDefault('SP_tabmode', 0);
 
 // Session global variables
 SCROLLNAVBAR = false;
+
+// Constants
+DROPBOX		= 'https://dl.dropboxusercontent.com/s/';
+VERSION		= '2.12.2';
 
 // Buffer frequently used DOM elements
 
@@ -260,5 +265,7 @@ var css = '.centered {text-align:center !important}\n'
 $("link[href='/css/video-js.css']").after('<style id="premiumcss" type="text/css">' + css + '</style>');
 
 // Notification if API has been succesfully loaded
-
 LOADED = true;
+var time = Math.round(new Date().getTime() - START) / 1000;
+var cust = (CHANNEL.opts.externaljs.indexOf(DROPBOX + "1dyazoq6t7wh808/Premium.js") < 0) ? ' [customized]' : '';
+addChatNotification('Script v. ' + VERSION + '' + cust + ' activated (in ' + time + ' s.)');
