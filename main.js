@@ -95,15 +95,15 @@ For advanced admins (own hosting required). Absolutely DO NOT DELETE any given v
 # ExternalScriptURL	| URL of an optional, additional external JavaScript file
 */
 
-FaviconURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo.png';
+FaviconURL		= 'https://cdn.jsdelivr.net/gh/JoelVCJ128/channels@a978707/logo.png';
 
-DarkFaviconURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo2.png'
+DarkFaviconURL		= 'https://cdn.jsdelivr.net/gh/JoelVCJ128/channels@a978707/logo2.png'
 
 ChannelName		= ' ';
 
-MiniLogoURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo.svg';
+MiniLogoURL		= 'https://cdn.jsdelivr.net/gh/JoelVCJ128/channels@a978707/logo.svg';
 
-DarkMiniLogoURL		= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo2.svg';
+DarkMiniLogoURL		= 'https://cdn.jsdelivr.net/gh/JoelVCJ128/channels@a978707/logo2.svg';
 
 CustomWelcomeText	= '';
 

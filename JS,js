@@ -3,16 +3,16 @@
 ChannelName	= '';
 Favicon = 1;
 styleSwitch = 1;
-Favicon_URL = 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo.png';
-DarkFavicon_URL = 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo2.png';
+Favicon_URL = 'https://cdn.jsdelivr.net/gh/JoelVCJ128/channels@a978707/logo.png';
+DarkFavicon_URL = 'https://cdn.jsdelivr.net/gh/JoelVCJ128/channels@a978707/logo2.png';
 // NavBar
 MiniLogo = 1;
-MiniLogo_URL	= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo.svg';
-DarkMiniLogo_URL	= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo2.svg';
+MiniLogo_URL	= 'https://cdn.jsdelivr.net/gh/JoelVCJ128/channels@a978707/logo.svg';
+DarkMiniLogo_URL	= 'https://cdn.jsdelivr.net/gh/JoelVCJ128/channels@a978707/logo2.svg';
 RemoveHomeLink = 1;
 HeaderOptionMenu = 1;
 AvatarDropMenu  = 1;
-DefaultAvatar_URL	= 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV/avatar.jpg';
+DefaultAvatar_URL	= 'https://cdn.jsdelivr.net/gh/JoelVCJ128/channels/avatar.jpg';
 
 var LOADED = (typeof LOADED==="undefined") ? false : true;
 LOADED ? document.location.reload() : '';

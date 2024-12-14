@@ -36,7 +36,7 @@ body {
 /* ----------  NAVBAR BRAND ICON ---------- */
 .navbar-inverse .navbar-brand {
     color: var(--tx1); content-visibility: hidden;
-    background-image: url( 'https://cdn.jsdelivr.net/gh/silicon98/VTuberTV@a978707/logo.svg' );
+    background-image: url( 'https://cdn.jsdelivr.net/gh/JoelVCJ128/channels@a978707/logo.svg' );
     background-repeat:no-repeat !important;
     background-position: 15px center !important;
     background-size: auto 36px !important;        
